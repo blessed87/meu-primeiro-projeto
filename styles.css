@@ -1,0 +1,16 @@
+.link-1 {
+  font-size: 50px;
+}
+
+h1 {
+  background: yellow;
+}
+
+.email {
+    border-color: rgb(39, 6, 226);
+    font-size: 30px;
+    border: 2px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+}
