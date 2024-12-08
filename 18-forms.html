@@ -1,0 +1,56 @@
+<!--
+    FORMS
+    - CAPTURAR DADOS DE ENTRADA
+    input -> ENTRADA
+    action -> DEFINE PARA QUAL URL SERÁ ENVIADO OS DADOS, VAZIO ENVIA PARA MESMA URL
+
+    METHOD (method)
+    - get ENVIA NA MESMA URL
+    - post ENVIA PARA UM BD DE FORMA SIGILOSA
+    
+    FILE (file) -  <input type="file" name="foto"/> 
+    - QUANDO TIVER ESSA OPÇÃO ACRECENTAR 1.1 
+    1.1 enctype="multipart/form-data"
+
+    <form action="" method="get" enctype="multipart/form-data"/>
+-->
+
+<form action="" method="get" enctype="multipart/form-data">
+    <h3> Digite seu endereço :method get:</h3>
+    <label> Rua:
+        <input type="text" name="rua" autocomplete="street-address"/>
+    </label>
+    
+    <label> Número:
+    <input type="number" name="numero"/>
+    </label>
+
+    <label> E-mail
+    <input type="email" name="email">
+    </label>
+    
+    <label> Foto:
+    <input type="file" name="foto"/>
+    </label>
+        <button type="submit"> Salvar </button>
+
+</form><br>
+
+<form action="" method="post">
+    <h3> Digite seu endereço :method post:</h3>
+    
+    <label> Rua:
+    <input type="text" name="rua" autocomplete="street-address"/>
+    </label>
+
+    <label> Número:
+    <input type="number" name="numero">
+    </label>
+    
+    <label> E-mail:
+    <input type="email" name="email">
+    </label>
+
+        <button type="submit"> Salvar </button>
+        <button type="reset"> RESET</button>
+</form><br>

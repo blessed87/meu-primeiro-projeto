@@ -1,0 +1,40 @@
+<!-- VÍDEOS 
+ COMANDOS BASICO usar dentro do inicio do comando <video src...>
+    controls
+    controlsList="nodownload"
+    autoplay
+    muted                   (só inicia o video com essa opção)
+    poster="./??.jpg"       (inicia o vídeo quando clica na imagem)-remover autoplay
+
+    source src=""           (colocar mais de um formato de vídeo)
+    width="???px"           (tamanho da largura do vídeo)
+    height="???px"          (tamanho da altura do vídeo)
+-->
+
+    <h2> EXEMPLO DE VÍDEO AUTOPLAY  </h2>
+<video src="./assets/thor homem aranha.mp4"
+controls controlsList="nodownload"
+autoplay
+muted
+poster="./img/WhatsApp Image 2022-04-10 at 18.21.30.jpeg"
+width="350px"
+> 
+</video>
+
+<br>
+        <h2> EXEMPLO DE VÍDEO POSTER </h2>
+    <video src="./assets/thor homem aranha.mp4"
+    controls controlsList="nodownload"
+    poster="./img/WhatsApp Image 2022-04-10 at 18.21.30.jpeg"
+    width="350px"
+>
+</video>
+
+<br>
+        <h2> EXEMPLO DE VÍDEO SOURCE </h2>
+    <video controls width="350px"> 
+    <source src="./assets/thor homem aranha.mp4"> 
+    <source src="./assets/thor homem aranha.mkv">
+    <source src="./assets/thor homem aranha.avi">
+    </video>
+
